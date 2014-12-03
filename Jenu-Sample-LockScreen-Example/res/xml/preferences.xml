@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/str_first_category_title" >
+        <Preference
+            android:key="setwallpaper"
+            android:title="@string/str_cbp_checkbox_preference1_title" />
+        
+        
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/str_second_category_title" >
+    </PreferenceCategory>
+
+</PreferenceScreen>

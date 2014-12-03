@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="str_btn_settings">Settings</string>
+    <string name="str_btn_show">Show Values</string>
+    <string name="str_first_category_title">Wallpaper</string>
+    <string name="str_cbp_checkbox_preference1_title">Set Wallpaper</string>
+    <string name="str_second_category_title">More</string>
+
+</resources>
