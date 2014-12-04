@@ -151,8 +151,8 @@ public class MainActivity extends Activity implements OnTriggerListener {
 		int width = size.x;
 		int height = size.y;
 
-		bottomLayout.setLayoutParams(new LinearLayout.LayoutParams(width,
-				height / 2));
+//		bottomLayout.setLayoutParams(new LinearLayout.LayoutParams(width,
+//				height / 2));
 
 		mLockScreen.setOnTriggerListener(this);
 
@@ -296,5 +296,9 @@ public class MainActivity extends Activity implements OnTriggerListener {
 		// TODO Auto-generated method stub
 
 	}
-
+@Override
+public void onBackPressed() {
+	// TODO Auto-generated method stub
+		//	super.onBackPressed();
+}
 }

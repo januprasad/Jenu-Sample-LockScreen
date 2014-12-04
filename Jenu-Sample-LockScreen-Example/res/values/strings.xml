@@ -6,6 +6,7 @@
     <string name="str_btn_show">Show Values</string>
     <string name="str_first_category_title">Wallpaper</string>
     <string name="str_cbp_checkbox_preference1_title">Set Wallpaper</string>
+    <string name="str_cbp_checkbox_preference2_title">About</string>
     <string name="str_second_category_title">More</string>
 
 </resources>

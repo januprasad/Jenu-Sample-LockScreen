@@ -72,7 +72,25 @@ public class SettingsActivity extends PreferenceActivity {
 				return false;
 			}
 		});
+		Preference button1 = findPreference("more");
+		button1.setOnPreferenceClickListener(new OnPreferenceClickListener() {
 
+			@Override
+			public boolean onPreferenceClick(Preference preference) {
+				// TODO Auto-generated method stub
+
+				showAbout();
+				return false;
+			}
+		});
+
+	}
+
+	protected void showAbout() {
+		// TODO Auto-generated method stub
+		
+		
+		
 	}
 
 	public void openGallery() {

@@ -20,8 +20,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="left"
             android:layout_marginTop="100dp"
+            android:gravity="left"
             android:orientation="vertical" >
 
             <TextView
@@ -65,10 +65,10 @@
         <LinearLayout
             android:id="@+id/BottomLayout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="bottom"
-            android:gravity="bottom"
             android:layout_marginBottom="20dp"
+            android:gravity="bottom"
             android:orientation="vertical"
             android:padding="8dp" >
 

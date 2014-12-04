@@ -5,10 +5,11 @@
         <Preference
             android:key="setwallpaper"
             android:title="@string/str_cbp_checkbox_preference1_title" />
-        
-        
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/str_second_category_title" >
+        <Preference
+            android:key="more"
+            android:title="@string/str_cbp_checkbox_preference2_title" />
     </PreferenceCategory>
 
 </PreferenceScreen>
